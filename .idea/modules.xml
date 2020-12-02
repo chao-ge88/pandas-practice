@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../pandas-practice/.idea/pandasandxlwings.iml" filepath="$PROJECT_DIR$/../pandas-practice/.idea/pandasandxlwings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pandasandxlwings/.idea/pandasandxlwings.iml" filepath="$PROJECT_DIR$/../pandasandxlwings/.idea/pandasandxlwings.iml" />
     </modules>
   </component>
 </project>

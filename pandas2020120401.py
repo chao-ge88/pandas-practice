@@ -14,5 +14,5 @@ print(df6)
 df7 = df1.append({'公司': '腾飞', '分数': '90'}, ignore_index=True)  # 新增元素，需要设置ignore_index参数为真忽略原索引
 print(df7)
 df8 = df2.append({'公司': '翱翔', '股价': '200'}, ignore_index=True)  # 练习添加元素
-print(df8)
+print(df8)  # 还是想办法要把不同电脑间和github之间的同步问题学会
 

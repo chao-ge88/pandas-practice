@@ -18,8 +18,8 @@ m = data1.iloc[0:2, [0, 2]]
 n = data1[data1['c1'] > 1]
 o = data1[(data1['c1'] > 1) & (data1['c2'] == 5)]
 q = data1.sort_values(by='c2', ascending=False)  # by指定用那一列排序，ascending（上升）默认升序，False为降序
-r = 0
-s = 0
+r = data1['c3']-data1['c1']
+s = data2.drop(columns=['c1', 'c2'], index=['r1', 'r3'], inplace=False)
 t = 0
 print(f'\n{data1}')
 print(f'\n{data2}')
